@@ -1,0 +1,31 @@
+/* Style for the "Get Started" button */
+.get-started-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #4caf50, #81c784); /* Green gradient */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+.get-started-btn:hover {
+    background: linear-gradient(45deg, #81c784, #4caf50); /* Reverse gradient */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+.landing-page h1,
+.landing-page p {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(57, 55, 31, 0.1);
+}
